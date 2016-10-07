@@ -37,7 +37,7 @@
 
 + (NSURLSessionDataTask*) orderListByCustomerId:(void (^)(NSMutableArray *orders))orderList failure:(void (^)(NSError *error))failure customer_id:(NSString*)customer_id parameters:(id)parameters;
 
-+ (NSURLSessionDataTask*) orderTotal:(void (^)(int order_total))orderTotal failure:(void (^)(NSError *error))failure parameters:(id)parameters;
++ (NSURLSessionDataTask*) orderTotal:(void (^)(NSString *nice_price))orderTotal failure:(void (^)(NSError *error))failure parameters:(id)parameters;
 
 + (NSURLSessionDataTask*) orderStatusList:(void (^)(NSMutableArray *statuses))statusList failure:(void (^)(NSError *error))failure;
 

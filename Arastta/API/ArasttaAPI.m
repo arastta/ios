@@ -699,7 +699,7 @@ NSURLSessionDataTask *dataTask;
 }
 
 
-+ (NSURLSessionDataTask*) orderTotal:(void (^)(int order_total))orderTotal failure:(void (^)(NSError *error))failure parameters:(id)parameters {
++ (NSURLSessionDataTask*) orderTotal:(void (^)(NSString *nice_price))orderTotal failure:(void (^)(NSError *error))failure parameters:(id)parameters {
 	
 	[self getCurrentStore];
 	
@@ -738,7 +738,7 @@ NSURLSessionDataTask *dataTask;
 					else
 					{
 						
-						orderTotal([[orderTotalIn objectForKey:@"number"] intValue]);
+						orderTotal([orderTotalIn objectForKey:@"nice_price"]);
 						
 					}
 					
@@ -749,7 +749,7 @@ NSURLSessionDataTask *dataTask;
 			{
 				
 				dispatch_async(dispatch_get_main_queue(), ^{
-				
+					
 					failure(error);
 					
 				});
