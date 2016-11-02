@@ -34,7 +34,13 @@
 	
 	for (NSDictionary *day in daily) {
 		
-		[self.orders_daily addObject:[NSNumber numberWithFloat:[[day objectForKey:@"number"] floatValue]]];
+		@try {
+			[self.orders_daily addObject:[NSNumber numberWithFloat:[[day objectForKey:@"price"] floatValue]]];
+		} @catch (NSException *exception) {
+			[self.orders_daily addObject:[NSNumber numberWithFloat:0.0f]];
+		} @finally {
+			
+		}
 		
 	}
 	
