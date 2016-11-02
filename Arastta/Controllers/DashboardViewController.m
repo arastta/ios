@@ -199,9 +199,7 @@
 			
 			NSString *strToday = [DatePart today];
 			
-			NSString *strTomorrow = [DatePart tomorrow];
-			
-			parameters = @{@"date_from": strToday, @"date_to": strTomorrow};
+			parameters = @{@"date_from": strToday, @"date_to": strToday};
 			
 		}
 			break;
@@ -211,9 +209,11 @@
 			
 			NSString *strBeginningOfMonth = [DatePart beginningOfMonth];
 			
-			NSString *strEndOfMonth = [DatePart endOfMonth];
+			//NSString *strEndOfMonth = [DatePart endOfMonth];
 			
-			parameters = @{@"date_from": strBeginningOfMonth, @"date_to": strEndOfMonth};
+			NSString *strToday = [DatePart today];
+			
+			parameters = @{@"date_from": strBeginningOfMonth, @"date_to": strToday};
 			
 		}
 			break;
@@ -223,9 +223,11 @@
 			
 			NSString *strBeginningOfYear = [DatePart beginningOfYear];
 			
-			NSString *strEndOfYear = [DatePart endOfYear];
+			//NSString *strEndOfYear = [DatePart endOfYear];
 			
-			parameters = @{@"date_from": strBeginningOfYear, @"date_to": strEndOfYear};
+			NSString *strToday = [DatePart today];
+			
+			parameters = @{@"date_from": strBeginningOfYear, @"date_to": strToday};
 			
 		}
 			break;

@@ -30,6 +30,8 @@
 
 	NSArray *daily = [[attributes valueForKey:@"orders"] valueForKey:@"daily"];
 	
+	[self.orders_daily addObject:[NSNumber numberWithFloat:0.0f]];
+	
 	for (NSDictionary *day in daily) {
 		
 		[self.orders_daily addObject:[NSNumber numberWithFloat:[[day objectForKey:@"number"] floatValue]]];

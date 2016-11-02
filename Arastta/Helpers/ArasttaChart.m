@@ -70,8 +70,7 @@
 	// </draw base lines>
 	
 	
-	
-	stepWidth = baseWidth / (vals.count + 1); // horizontal gap between each value
+	stepWidth = baseWidth / (vals.count - 1); // horizontal gap between each value
 	
 	maxValue = [[vals valueForKeyPath:@"@max.intValue"] intValue]; // max value in the array of sales
 	
@@ -86,16 +85,16 @@
 	// <set starting point as the first value in array>
 	currentVal = [((NSNumber*)[vals objectAtIndex:0]) floatValue];
 	
-	[path moveToPoint:CGPointMake(stepWidth, baseHeight - (currentVal * multiplier))];
+	[path moveToPoint:CGPointMake(0, baseHeight - (currentVal * multiplier))];
 	// </set starting point as the first value in array>
 
 	
-	for (int i = 1; i < vals.count; i++)
+	for (int i = 0; i < vals.count; i++)
 	{
 		
 		currentVal = [((NSNumber*)[vals objectAtIndex:i]) floatValue];
 		
-		[path addLineToPoint:CGPointMake((i + 1) * stepWidth, baseHeight - (currentVal * multiplier))];
+		[path addLineToPoint:CGPointMake(i * stepWidth, baseHeight - (currentVal * multiplier))];
 		
 	}
 	

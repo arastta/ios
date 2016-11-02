@@ -123,21 +123,6 @@
 		
 		[self.tableOrders reloadData];
 		
-		/*
-		 Order *order;
-		 
-		 orderTotal = 0.0;
-		 
-		 for (int i = 0; i < orderList.count; i++) {
-			
-			order = [orderList objectAtIndex:i];
-			
-			orderTotal += [[order valueForKey:@"total"] floatValue];
-			
-		 }
-		 
-		 self.lblTotal.text = [NSString stringWithFormat:@"$%.02f", orderTotal];*/
-		
 	} failure:^(NSError *error) {
 		
 		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
