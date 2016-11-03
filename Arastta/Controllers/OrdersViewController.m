@@ -129,7 +129,7 @@
 		
 		[self.indicatorLoading stopAnimating];
 		
-	} parameters:parameters];
+	} parameters:@{@"order": @"DESC"}];
 	// </order list>
 	
 	
