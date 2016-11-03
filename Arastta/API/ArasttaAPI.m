@@ -52,15 +52,15 @@ NSURLSessionDataTask *dataTask;
 	if (parameters == nil)
 	{
 		
-		NSLog(@"url - %@", [NSURL URLWithString:[NSString stringWithFormat:@"%@/api%@", storeLink, path]]);
+		NSLog(@"url - %@", [NSURL URLWithString:[NSString stringWithFormat:@"%@/index.php/api%@", storeLink, path]]);
 		
-		return [NSURL URLWithString:[NSString stringWithFormat:@"%@/api%@", storeLink, path]];
+		return [NSURL URLWithString:[NSString stringWithFormat:@"%@/index.php/api%@", storeLink, path]];
 		
 	}
 	else
 	{
 	
-		NSURLComponents *components = [NSURLComponents componentsWithString:[NSString stringWithFormat:@"%@/api%@", storeLink, path]];
+		NSURLComponents *components = [NSURLComponents componentsWithString:[NSString stringWithFormat:@"%@/index.php/api%@", storeLink, path]];
 		
 		NSMutableArray *queryItems = [[NSMutableArray alloc] init];
 		
