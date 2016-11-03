@@ -39,15 +39,46 @@
 	currentStore = [Store get];
 	
 	
+	self.viewInfo.contentSize = CGSizeMake(self.viewInfo.frame.size.width, 622);
+	
+	
 	// <render info>
 	
-	self.lblTitle.text = [NSString stringWithFormat:@"%@ (ID: %@)", self.product.name, self.product.product_id];
+	self.lblTitle.text = [NSString stringWithFormat:@"%@", self.product.name];
+	
+	self.no.text = self.product.product_id;
 	
 	self.model.text = self.product.model;
 	
+	self.sku.text = self.product.sku;
+	
 	self.nice_price.text = self.product.nice_price;
 	
+	self.quantity.text = self.product.quantity;
+	
 	self.manufacturer_name.text = self.product.manufacturer_name;
+	
+	if ([self.product.status isEqual:@"1"])
+	{
+		
+		self.status1.hidden = NO;
+		
+	}
+	else
+	{
+		
+		self.status0.hidden = NO;
+		
+	}
+	
+	/*
+	NSString *htmlString = self.product.description;
+	
+	NSAttributedString *attrStr = [[NSAttributedString alloc] initWithData:[htmlString dataUsingEncoding:NSUnicodeStringEncoding] options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType } documentAttributes:nil error:nil];
+	
+	self.product_description.attributedText = attrStr;*/
+	
+	[self.product_description loadHTMLString:self.product.description baseURL:nil];
 	
 	// </render info>
 	
@@ -82,6 +113,7 @@
 	}
 	
 	// </load images>
+	
 	
 }
 
