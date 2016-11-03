@@ -18,9 +18,15 @@
 @property (strong, nonatomic) IBOutlet UIPageControl *pageImages;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *indicatorLoading;
 @property (strong, nonatomic) IBOutlet UIScrollView *viewInfo;
+@property (strong, nonatomic) IBOutlet UILabel *no;
 @property (strong, nonatomic) IBOutlet UILabel *model;
+@property (strong, nonatomic) IBOutlet UILabel *sku;
 @property (strong, nonatomic) IBOutlet UILabel *nice_price;
+@property (strong, nonatomic) IBOutlet UILabel *quantity;
 @property (strong, nonatomic) IBOutlet UILabel *manufacturer_name;
+@property (strong, nonatomic) IBOutlet UILabel *status0;
+@property (strong, nonatomic) IBOutlet UILabel *status1;
+@property (strong, nonatomic) IBOutlet UIWebView *product_description;
 
 - (IBAction)btnBackClick:(id)sender;
 - (IBAction)pageImagesChanged:(id)sender;
