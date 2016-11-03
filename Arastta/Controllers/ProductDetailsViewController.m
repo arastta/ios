@@ -71,13 +71,6 @@
 		
 	}
 	
-	/*
-	NSString *htmlString = self.product.description;
-	
-	NSAttributedString *attrStr = [[NSAttributedString alloc] initWithData:[htmlString dataUsingEncoding:NSUnicodeStringEncoding] options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType } documentAttributes:nil error:nil];
-	
-	self.product_description.attributedText = attrStr;*/
-	
 	[self.product_description loadHTMLString:self.product.description baseURL:nil];
 	
 	// </render info>
