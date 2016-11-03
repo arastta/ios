@@ -78,7 +78,7 @@
 			
 			NSString *strTomorrow = [DatePart tomorrow];
 			
-			parameters = @{@"date_from": strToday, @"date_to": strTomorrow, @"search": stringSearch};
+			parameters = @{@"order": @"DESC", @"date_from": strToday, @"date_to": strTomorrow, @"search": stringSearch};
 			
 		}
 			break;
@@ -90,7 +90,7 @@
 			
 			NSString *strEndOfMonth = [DatePart endOfMonth];
 			
-			parameters = @{@"date_from": strBeginningOfMonth, @"date_to": strEndOfMonth, @"search": stringSearch};
+			parameters = @{@"order": @"DESC", @"date_from": strBeginningOfMonth, @"date_to": strEndOfMonth, @"search": stringSearch};
 			
 		}
 			break;
@@ -102,7 +102,7 @@
 			
 			NSString *strEndOfYear = [DatePart endOfYear];
 			
-			parameters = @{@"date_from": strBeginningOfYear, @"date_to": strEndOfYear, @"search": stringSearch};
+			parameters = @{@"order": @"DESC", @"date_from": strBeginningOfYear, @"date_to": strEndOfYear, @"search": stringSearch};
 			
 		}
 			break;
@@ -129,7 +129,7 @@
 		
 		[self.indicatorLoading stopAnimating];
 		
-	} parameters:@{@"order": @"DESC"}];
+	} parameters:parameters];
 	// </order list>
 	
 	
