@@ -41,7 +41,7 @@
 	
 	// <render info>
 	
-	self.lblTitle.text = [NSString stringWithFormat:@"%@ (ID: %@)", self.product.name, self.product.product_id];
+	self.lblTitle.text = [NSString stringWithFormat:@"%@", self.product.name];
 	
 	self.model.text = self.product.model;
 	
