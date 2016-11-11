@@ -27,6 +27,8 @@
 
 +(BOOL)update:(Store*)oldStore newStore:(NSDictionary*)newStore;
 
++(Store*)delete:(Store*)storeToDelete;
+
 +(BOOL)addToList:(Store*)store;
 
 +(NSArray*)list;

@@ -67,6 +67,10 @@
 		
 		self.txtPassword.text = self.store.password;
 		
+		self.imgDelete.hidden = NO;
+		
+		self.btnDelete.hidden = NO;
+		
 	}
 	
 	self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width, 572);
@@ -84,6 +88,60 @@
 - (IBAction)btnBackClick:(id)sender {
 	
 	[self btnCancelClick:nil];
+	
+}
+
+
+- (IBAction)btnDeleteClick:(id)sender {
+	
+	UIAlertController *alert =   [UIAlertController
+								  alertControllerWithTitle:@"Delete Confirmation"
+								  message:@"Are you sure to delete this store?"
+								  preferredStyle:UIAlertControllerStyleAlert];
+	
+	UIAlertAction* ok = [UIAlertAction
+						 actionWithTitle:@"DELETE"
+						 style:UIAlertActionStyleDestructive
+						 handler:^(UIAlertAction * action)
+						 {
+							 
+							 Store *newStore = [Store delete:self.store];
+							 
+							 ManageStoresViewController *msvc = (ManageStoresViewController*)self.presentingViewController;
+							 
+							 [msvc listStores];
+							 
+							 [self dismissViewControllerAnimated:YES completion:nil];
+							 
+							 if (newStore != nil)
+							 {
+							 
+								 // <update switch to store list from menu>
+								 
+								 MenuViewController *mvc = (MenuViewController*)((SliderViewController*)msvc.presentingViewController).underLeftViewController;
+								 
+								 [mvc loadStore:newStore];
+									 
+								 [mvc loadStores];
+								 
+								 [mvc.tableStores reloadData];
+								 
+								 // </update switch to store list from menu>
+								 
+							 }
+							 
+						 }];
+	
+	[alert addAction:ok];
+	
+	UIAlertAction* cancel = [UIAlertAction
+						 actionWithTitle:@"Cancel"
+						 style:UIAlertActionStyleCancel
+						 handler:nil];
+	
+	[alert addAction:cancel];
+	
+	[self presentViewController:alert animated:YES completion:nil];
 	
 }
 

@@ -48,6 +48,23 @@
 	
 	storeList = [Store list];
 	
+	if (storeList.count == 0)
+	{
+		
+		self.btnBack.hidden = YES;
+		
+		self.imgBack.hidden = YES;
+		
+	}
+	else
+	{
+		
+		self.btnBack.hidden = NO;
+		
+		self.imgBack.hidden = NO;
+		
+	}
+	
 	[self.tableStores reloadData];
 	
 	self.tableStores.frame = CGRectMake(0, 0, self.tableStores.frame.size.width, 70 * storeList.count);

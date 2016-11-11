@@ -12,6 +12,8 @@
 @interface ManageStoreViewController : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UILabel *lblTitle;
+@property (strong, nonatomic) IBOutlet UIButton *btnDelete;
+@property (strong, nonatomic) IBOutlet UIImageView *imgDelete;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) IBOutlet UITextField *txtStoreTitle;
 @property (strong, nonatomic) IBOutlet UIImageView *imgRetrieveTitleAutomatically;
@@ -29,6 +31,7 @@
 @property Store *store;
 
 - (IBAction)btnBackClick:(id)sender;
+- (IBAction)btnDeleteClick:(id)sender;
 - (IBAction)btnRetrieveTitleAutomaticallyClick:(id)sender;
 - (IBAction)btnUseSecureConnectionClick:(id)sender;
 - (IBAction)btnOrderCreatedClick:(id)sender;

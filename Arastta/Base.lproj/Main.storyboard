@@ -372,7 +372,7 @@
                                             <action selector="btnBackClick:" destination="phg-Dl-w9c" eventType="touchUpInside" id="k8Q-mw-jkx"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back-icon.png" id="R0v-zm-s51" userLabel="imgMenu">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back-icon.png" id="R0v-zm-s51" userLabel="imgBack">
                                         <rect key="frame" x="15" y="34" width="18" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -463,6 +463,8 @@
                         <color key="backgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="btnBack" destination="7yY-9K-3lO" id="2KR-K6-Asu"/>
+                        <outlet property="imgBack" destination="R0v-zm-s51" id="RmM-77-4rC"/>
                         <outlet property="scrollView" destination="JzU-II-AeU" id="V5J-Na-XrC"/>
                         <outlet property="tableStores" destination="pYT-Fg-DoV" id="I4D-bO-sow"/>
                         <outlet property="viewAddStore" destination="iwN-47-h4c" id="Veu-nx-ZPh"/>
@@ -790,6 +792,17 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icon_trash.png" id="eeb-bG-tMy" userLabel="imgDelete">
+                                        <rect key="frame" x="324" y="25" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TOI-Ct-4QE" userLabel="btnDelete">
+                                        <rect key="frame" x="305" y="25" width="70" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="btnDeleteClick:" destination="RfW-xK-Che" eventType="touchUpInside" id="jpM-nm-hz8"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -1060,6 +1073,8 @@
                         <color key="backgroundColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="btnDelete" destination="TOI-Ct-4QE" id="3ma-kY-1wP"/>
+                        <outlet property="imgDelete" destination="eeb-bG-tMy" id="JIx-QQ-esF"/>
                         <outlet property="imgNewCustomerRegistered" destination="SJl-6D-Y4V" id="m4x-bp-Dzp"/>
                         <outlet property="imgOrderCreated" destination="IjY-Yd-1Sl" id="WEQ-4n-mx6"/>
                         <outlet property="imgOrderStatusChanged" destination="1Pw-jU-vTA" id="Tz5-eQ-8UC"/>
@@ -1076,7 +1091,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDS-7s-9ma" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="1870"/>
+            <point key="canvasLocation" x="19.5" y="1869.5"/>
         </scene>
         <!--ProductsViewController-->
         <scene sceneID="Dbz-oT-BQg">
@@ -3467,6 +3482,7 @@
         <image name="dropdown-icon.png" width="50" height="50"/>
         <image name="email-icon.png" width="36" height="36"/>
         <image name="filter-icon.png" width="68" height="68"/>
+        <image name="icon_trash.png" width="192" height="192"/>
         <image name="logo.png" width="1018" height="170"/>
         <image name="manage-store-icon.png" width="39" height="39"/>
         <image name="manage-stores-icon.png" width="56" height="56"/>

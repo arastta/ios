@@ -97,6 +97,51 @@
 }
 
 
++(Store*)delete:(Store*)storeToDelete {
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	
+	NSMutableArray *storeArray = [NSMutableArray arrayWithContentsOfFile:[NSString stringWithFormat:@"%@/storeList.data", [paths objectAtIndex:0]]];
+	
+	NSDictionary *storeDict;
+	
+	Store *store;
+	
+	for (int i = 0; i < storeArray.count; i++)
+	{
+		
+		storeDict = [storeArray objectAtIndex:i];
+		
+		store = [[Store alloc] initWithAttributes:storeDict];
+		
+		if ([store.store_url isEqualToString:storeToDelete.store_url])
+			[storeArray removeObjectAtIndex:i];
+		
+	}
+	
+	if (storeArray.count > 0)
+	{
+		
+		storeDict = [storeArray objectAtIndex:0];
+		
+		store = [[Store alloc] initWithAttributes:storeDict];
+		
+		[self switchTo:store];
+		
+	}
+	
+	if ([storeArray writeToFile:[NSString stringWithFormat:@"%@/storeList.data", [paths objectAtIndex:0]] atomically:YES])
+	{
+		return store;
+	}
+	else
+	{
+		return nil;
+	}
+	
+}
+
+
 +(BOOL)addToList:(Store*)store {
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
