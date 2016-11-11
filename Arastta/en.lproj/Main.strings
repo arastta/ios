@@ -1,0 +1,558 @@
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "0Ku-gv-600"; */
+"0Ku-gv-600.placeholder" = "E-mail";
+
+/* Class = "UITextField"; text = "mobile"; ObjectID = "0Ku-gv-600"; */
+"0Ku-gv-600.text" = "mobile";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "0MK-Xe-XQ0"; */
+"0MK-Xe-XQ0.normalTitle" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Products"; ObjectID = "0iP-pb-jbA"; */
+"0iP-pb-jbA.normalTitle" = "Products";
+
+/* Class = "UILabel"; text = "Store Title"; ObjectID = "11n-Ik-q5X"; */
+"11n-Ik-q5X.text" = "Store Title";
+
+/* Class = "UITextField"; placeholder = "Type Title Here"; ObjectID = "12K-P5-qQK"; */
+"12K-P5-qQK.placeholder" = "Type Title Here";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "1rO-0D-sVv"; */
+"1rO-0D-sVv.text" = "-";
+
+/* Class = "UILabel"; text = "Store URL (without http:// or https://)"; ObjectID = "202-N2-7h1"; */
+"202-N2-7h1.text" = "Store URL (without http:// or https://)";
+
+/* Class = "UILabel"; text = "CUSTOMERS"; ObjectID = "27z-Qy-2i7"; */
+"27z-Qy-2i7.text" = "CUSTOMERS";
+
+/* Class = "UILabel"; text = "Register Date:"; ObjectID = "2PQ-dH-2gX"; */
+"2PQ-dH-2gX.text" = "Register Date:";
+
+/* Class = "UILabel"; text = "Telephone:"; ObjectID = "33v-Da-clj"; */
+"33v-Da-clj.text" = "Telephone:";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "3B7-XW-g39"; */
+"3B7-XW-g39.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "3ai-hr-kOB"; */
+"3ai-hr-kOB.text" = "Date";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "3fH-2d-Ti6"; */
+"3fH-2d-Ti6.normalTitle" = "Today";
+
+/* Class = "UITextField"; placeholder = "Type URL Here"; ObjectID = "3gd-G2-aWR"; */
+"3gd-G2-aWR.placeholder" = "Type URL Here";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "439-Vk-A0d"; */
+"439-Vk-A0d.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "49f-6D-aVW"; */
+"49f-6D-aVW.text" = "0.0";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "4F6-O4-SRW"; */
+"4F6-O4-SRW.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UILabel"; text = "Fullname"; ObjectID = "4Ua-TF-Wvy"; */
+"4Ua-TF-Wvy.text" = "Fullname";
+
+/* Class = "UILabel"; text = "Orders: -"; ObjectID = "4hM-Zq-QNW"; */
+"4hM-Zq-QNW.text" = "Orders: -";
+
+/* Class = "UILabel"; text = "Total:"; ObjectID = "6iO-K6-4In"; */
+"6iO-K6-4In.text" = "Total:";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "6jg-Ps-aXB"; */
+"6jg-Ps-aXB.normalTitle" = "Today";
+
+/* Class = "UILabel"; text = "Manufacturer:"; ObjectID = "7Co-jV-1Fd"; */
+"7Co-jV-1Fd.text" = "Manufacturer:";
+
+/* Class = "UILabel"; text = "Arastta Butik"; ObjectID = "8Jc-yu-zCz"; */
+"8Jc-yu-zCz.text" = "Arastta Butik";
+
+/* Class = "UITextField"; placeholder = "Type API Username Here"; ObjectID = "8NN-S7-ghx"; */
+"8NN-S7-ghx.placeholder" = "Type API Username Here";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "8Y2-zK-ffR"; */
+"8Y2-zK-ffR.text" = "Enabled";
+
+/* Class = "UILabel"; text = "arasttabutik.com"; ObjectID = "8dF-kd-Q28"; */
+"8dF-kd-Q28.text" = "arasttabutik.com";
+
+/* Class = "UILabel"; text = "Registered: -"; ObjectID = "91z-aK-4xh"; */
+"91z-aK-4xh.text" = "Registered: -";
+
+/* Class = "UILabel"; text = "Model:"; ObjectID = "96x-Gt-04i"; */
+"96x-Gt-04i.text" = "Model:";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "9DB-Th-G6T"; */
+"9DB-Th-G6T.text" = "-";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "9YI-uY-TeB"; */
+"9YI-uY-TeB.text" = "Product Name";
+
+/* Class = "UILabel"; text = "Model: Model Type"; ObjectID = "9Zu-0x-tvu"; */
+"9Zu-0x-tvu.text" = "Model: Model Type";
+
+/* Class = "UILabel"; text = "Order Count:"; ObjectID = "9yA-pi-9gM"; */
+"9yA-pi-9gM.text" = "Order Count:";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ASg-rY-idL"; */
+"ASg-rY-idL.text" = "-";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "Amy-SX-0tb"; */
+"Amy-SX-0tb.text" = "0 TL";
+
+/* Class = "UILabel"; text = "ID: 0"; ObjectID = "AqA-HJ-j8A"; */
+"AqA-HJ-j8A.text" = "ID: 0";
+
+/* Class = "UILabel"; text = "Comment:"; ObjectID = "B9R-kI-dUJ"; */
+"B9R-kI-dUJ.text" = "Comment:";
+
+/* Class = "UILabel"; text = "Avg. order value / day:"; ObjectID = "BGH-Wd-Fl5"; */
+"BGH-Wd-Fl5.text" = "Avg. order value / day:";
+
+/* Class = "UILabel"; text = "Products"; ObjectID = "BRV-wR-OUp"; */
+"BRV-wR-OUp.text" = "Products";
+
+/* Class = "UILabel"; text = "+90 999 99 99"; ObjectID = "BTW-zE-7Qg"; */
+"BTW-zE-7Qg.text" = "+90 999 99 99";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "CS3-qi-yB2"; */
+"CS3-qi-yB2.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Ckl-bp-ldM"; */
+"Ckl-bp-ldM.text" = "-";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "D4d-N4-DD8"; */
+"D4d-N4-DD8.text" = "Status";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "DKs-0d-csV"; */
+"DKs-0d-csV.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "Dhq-2u-wWS"; */
+"Dhq-2u-wWS.normalTitle" = "Info";
+
+/* Class = "UIButton"; normalTitle = "Manage Stores"; ObjectID = "Djf-B6-ZZ3"; */
+"Djf-B6-ZZ3.normalTitle" = "Manage Stores";
+
+/* Class = "UIButton"; normalTitle = "Orders"; ObjectID = "EK9-43-yeI"; */
+"EK9-43-yeI.normalTitle" = "Orders";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "EpC-hk-LGK"; */
+"EpC-hk-LGK.text" = "0";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ErH-rs-Ii3"; */
+"ErH-rs-Ii3.placeholder" = "Password";
+
+/* Class = "UITextField"; text = "app"; ObjectID = "ErH-rs-Ii3"; */
+"ErH-rs-Ii3.text" = "app";
+
+/* Class = "UILabel"; text = "Add Store..."; ObjectID = "EvS-Nc-tVO"; */
+"EvS-Nc-tVO.text" = "Add Store...";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "FIG-46-Nyx"; */
+"FIG-46-Nyx.text" = "$0";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "FRO-2u-j42"; */
+"FRO-2u-j42.text" = "-";
+
+/* Class = "UILabel"; text = "Customer ID"; ObjectID = "FRo-nW-646"; */
+"FRo-nW-646.text" = "Customer ID";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "G8g-cW-bea"; */
+"G8g-cW-bea.text" = "0";
+
+/* Class = "UILabel"; text = "01.01.1999 00:00"; ObjectID = "GEy-W6-7MF"; */
+"GEy-W6-7MF.text" = "01.01.1999 00:00";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "Gbu-zo-t0i"; */
+"Gbu-zo-t0i.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UILabel"; text = "Active"; ObjectID = "GeY-zj-Dhc"; */
+"GeY-zj-Dhc.text" = "Active";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "HEC-Yl-cJE"; */
+"HEC-Yl-cJE.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Customer Name"; ObjectID = "IrL-Kr-nIB"; */
+"IrL-Kr-nIB.text" = "Customer Name";
+
+/* Class = "UILabel"; text = "Fax:"; ObjectID = "IrR-cU-rCZ"; */
+"IrR-cU-rCZ.text" = "Fax:";
+
+/* Class = "UILabel"; text = "IP:"; ObjectID = "K99-7j-9D7"; */
+"K99-7j-9D7.text" = "IP:";
+
+/* Class = "UILabel"; text = "Payment Method:"; ObjectID = "KH5-QW-0Fo"; */
+"KH5-QW-0Fo.text" = "Payment Method:";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "KqN-1d-fxS"; */
+"KqN-1d-fxS.text" = "0 TL";
+
+/* Class = "UITextField"; placeholder = "Type API Password Here"; ObjectID = "KyU-yb-q11"; */
+"KyU-yb-q11.placeholder" = "Type API Password Here";
+
+/* Class = "UILabel"; text = "App Settings"; ObjectID = "L87-Ed-Ky5"; */
+"L87-Ed-Ky5.text" = "App Settings";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "LaE-SB-WaF"; */
+"LaE-SB-WaF.text" = "Enabled";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "Mb5-q7-4Ao"; */
+"Mb5-q7-4Ao.text" = "0 TL";
+
+/* Class = "UILabel"; text = "Customer ID: -"; ObjectID = "Ng2-Qc-48K"; */
+"Ng2-Qc-48K.text" = "Customer ID: -";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "Np6-Z4-PE1"; */
+"Np6-Z4-PE1.text" = "Total";
+
+/* Class = "UILabel"; text = "Order ID:"; ObjectID = "ONu-LJ-u1O"; */
+"ONu-LJ-u1O.text" = "Order ID:";
+
+/* Class = "UILabel"; text = "Status:"; ObjectID = "OWv-M7-6f2"; */
+"OWv-M7-6f2.text" = "Status:";
+
+/* Class = "UILabel"; text = "PRODUCTS"; ObjectID = "Oas-Nj-kjd"; */
+"Oas-Nj-kjd.text" = "PRODUCTS";
+
+/* Class = "UILabel"; text = "No:"; ObjectID = "Oe0-mC-lIn"; */
+"Oe0-mC-lIn.text" = "No:";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "Oqz-wV-LD9"; */
+"Oqz-wV-LD9.text" = "Status";
+
+/* Class = "UITextField"; placeholder = "Store Link"; ObjectID = "PPC-nq-WPB"; */
+"PPC-nq-WPB.placeholder" = "Store Link";
+
+/* Class = "UITextField"; text = "mobile.arastta.com"; ObjectID = "PPC-nq-WPB"; */
+"PPC-nq-WPB.text" = "mobile.arastta.com";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "PSg-4h-gDi"; */
+"PSg-4h-gDi.text" = "Total";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Pls-QK-TcY"; */
+"Pls-QK-TcY.text" = "-";
+
+/* Class = "UILabel"; text = "ID: 0"; ObjectID = "QdX-fH-p5X"; */
+"QdX-fH-p5X.text" = "ID: 0";
+
+/* Class = "UIButton"; normalTitle = "Dashboard"; ObjectID = "Qlb-73-Z6l"; */
+"Qlb-73-Z6l.normalTitle" = "Dashboard";
+
+/* Class = "UILabel"; text = "ID: -"; ObjectID = "Qzk-Fz-WN4"; */
+"Qzk-Fz-WN4.text" = "ID: -";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "R4g-vv-JW3"; */
+"R4g-vv-JW3.text" = "-";
+
+/* Class = "UILabel"; text = "Manage Stores"; ObjectID = "RMz-YQ-eyn"; */
+"RMz-YQ-eyn.text" = "Manage Stores";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Rgn-9y-uw1"; */
+"Rgn-9y-uw1.text" = "-";
+
+/* Class = "UILabel"; text = "API Username"; ObjectID = "S2b-G3-V7u"; */
+"S2b-G3-V7u.text" = "API Username";
+
+/* Class = "UILabel"; text = "New Store"; ObjectID = "Soc-Y4-YMg"; */
+"Soc-Y4-YMg.text" = "New Store";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "TmN-Yl-jZt"; */
+"TmN-Yl-jZt.text" = "$0.00";
+
+/* Class = "UILabel"; text = "ID:"; ObjectID = "UNG-T8-Fjp"; */
+"UNG-T8-Fjp.text" = "ID:";
+
+/* Class = "UILabel"; text = "Orders"; ObjectID = "V0W-jh-Sh0"; */
+"V0W-jh-Sh0.text" = "Orders";
+
+/* Class = "UILabel"; text = "ORDERS"; ObjectID = "V4o-sn-wJZ"; */
+"V4o-sn-wJZ.text" = "ORDERS";
+
+/* Class = "UILabel"; text = "Completed"; ObjectID = "VA0-n0-Xg7"; */
+"VA0-n0-Xg7.text" = "Completed";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "VU1-uX-7GY"; */
+"VU1-uX-7GY.text" = "-";
+
+/* Class = "UILabel"; text = "ID: 0"; ObjectID = "VYZ-EI-UQR"; */
+"VYZ-EI-UQR.text" = "ID: 0";
+
+/* Class = "UILabel"; text = "john@domain.com"; ObjectID = "W7K-5X-0Dp"; */
+"W7K-5X-0Dp.text" = "john@domain.com";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "WBt-nY-E0k"; */
+"WBt-nY-E0k.text" = "-";
+
+/* Class = "UILabel"; text = "Avg. order value / customer:"; ObjectID = "WQl-Zc-80V"; */
+"WQl-Zc-80V.text" = "Avg. order value / customer:";
+
+/* Class = "UILabel"; text = "Customer Name"; ObjectID = "Wb4-vh-Mnt"; */
+"Wb4-vh-Mnt.text" = "Customer Name";
+
+/* Class = "UIButton"; normalTitle = "App Settings"; ObjectID = "Wpk-f9-RnJ"; */
+"Wpk-f9-RnJ.normalTitle" = "App Settings";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "WrT-Fe-zER"; */
+"WrT-Fe-zER.text" = "0.0";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "X4n-li-Yyg"; */
+"X4n-li-Yyg.text" = "-";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "Xct-nX-9bK"; */
+"Xct-nX-9bK.text" = "0 TL";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "YF3-mf-p7M"; */
+"YF3-mf-p7M.text" = "Enabled";
+
+/* Class = "UILabel"; text = "Fullname"; ObjectID = "YXc-hR-eOY"; */
+"YXc-hR-eOY.text" = "Fullname";
+
+/* Class = "UILabel"; text = "Add Store..."; ObjectID = "Ydg-VM-7m2"; */
+"Ydg-VM-7m2.text" = "Add Store...";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "ZKb-ii-bQ4"; */
+"ZKb-ii-bQ4.text" = "0 TL";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ZPh-dD-JAK"; */
+"ZPh-dD-JAK.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ZW2-iJ-2FG"; */
+"ZW2-iJ-2FG.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Yearly"; ObjectID = "Zgw-Ts-e6Y"; */
+"Zgw-Ts-e6Y.normalTitle" = "Yearly";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "aNT-Ua-yQi"; */
+"aNT-Ua-yQi.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ask-qJ-Gy0"; */
+"ask-qJ-Gy0.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "bCp-zw-MoW"; */
+"bCp-zw-MoW.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Interface Language"; ObjectID = "bD3-Py-skF"; */
+"bD3-Py-skF.normalTitle" = "Interface Language";
+
+/* Class = "UIButton"; normalTitle = "Orders"; ObjectID = "baL-QV-QE7"; */
+"baL-QV-QE7.normalTitle" = "Orders";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "bnh-PY-XP1"; */
+"bnh-PY-XP1.text" = "Name:";
+
+/* Class = "UIButton"; normalTitle = "History"; ObjectID = "cri-Cr-zyt"; */
+"cri-Cr-zyt.normalTitle" = "History";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "cyv-IX-1Qc"; */
+"cyv-IX-1Qc.text" = "-";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "d8i-d7-bLs"; */
+"d8i-d7-bLs.text" = "Country:";
+
+/* Class = "UIButton"; normalTitle = "Monthly"; ObjectID = "dGb-46-eWa"; */
+"dGb-46-eWa.normalTitle" = "Monthly";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "deC-Wl-TjO"; */
+"deC-Wl-TjO.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Notifications"; ObjectID = "ebp-zn-B6f"; */
+"ebp-zn-B6f.normalTitle" = "Notifications";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "ecx-Is-6lr"; */
+"ecx-Is-6lr.normalTitle" = "Info";
+
+/* Class = "UILabel"; text = "Quantity: -"; ObjectID = "ejl-YL-TU3"; */
+"ejl-YL-TU3.text" = "Quantity: -";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "et0-3d-glh"; */
+"et0-3d-glh.text" = "-";
+
+/* Class = "UILabel"; text = "API Password"; ObjectID = "f4p-q9-jFE"; */
+"f4p-q9-jFE.text" = "API Password";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "fcr-1b-3Av"; */
+"fcr-1b-3Av.normalTitle" = "Today";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "flP-Rd-YAe"; */
+"flP-Rd-YAe.text" = "-";
+
+/* Class = "UILabel"; text = "Avg. customers / day:"; ObjectID = "fn0-Ia-AuQ"; */
+"fn0-Ia-AuQ.text" = "Avg. customers / day:";
+
+/* Class = "UILabel"; text = "Company:"; ObjectID = "g2v-wo-tuQ"; */
+"g2v-wo-tuQ.text" = "Company:";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "g6q-GR-aSY"; */
+"g6q-GR-aSY.text" = "Date";
+
+/* Class = "UILabel"; text = "OS Language"; ObjectID = "gR5-nS-qD0"; */
+"gR5-nS-qD0.text" = "OS Language";
+
+/* Class = "UIButton"; normalTitle = "Products"; ObjectID = "gdK-Lw-Ia9"; */
+"gdK-Lw-Ia9.normalTitle" = "Products";
+
+/* Class = "UILabel"; text = "Store Title"; ObjectID = "gk9-Gq-ZUf"; */
+"gk9-Gq-ZUf.text" = "Store Title";
+
+/* Class = "UILabel"; text = "Product Description"; ObjectID = "gsf-Om-5vb"; */
+"gsf-Om-5vb.text" = "Product Description";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "hjM-81-WXe"; */
+"hjM-81-WXe.text" = "-";
+
+/* Class = "UILabel"; text = "All Products:"; ObjectID = "icJ-8e-sZp"; */
+"icJ-8e-sZp.text" = "All Products:";
+
+/* Class = "UILabel"; text = "Customers"; ObjectID = "inz-4V-d98"; */
+"inz-4V-d98.text" = "Customers";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "iz1-2n-Ynv"; */
+"iz1-2n-Ynv.text" = "Description:";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "jVu-9S-fYt"; */
+"jVu-9S-fYt.text" = "Product Name";
+
+/* Class = "UILabel"; text = "Quantity: 0"; ObjectID = "jgR-5b-KfK"; */
+"jgR-5b-KfK.text" = "Quantity: 0";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "kwK-4I-Hml"; */
+"kwK-4I-Hml.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UIButton"; normalTitle = "Monthly"; ObjectID = "lmc-U6-dSS"; */
+"lmc-U6-dSS.normalTitle" = "Monthly";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "ltf-wQ-rWY"; */
+"ltf-wQ-rWY.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UILabel"; text = "Product Info"; ObjectID = "m0Y-OU-JQd"; */
+"m0Y-OU-JQd.text" = "Product Info";
+
+/* Class = "UIButton"; normalTitle = "Ordered"; ObjectID = "msb-Sn-b1t"; */
+"msb-Sn-b1t.normalTitle" = "Ordered";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "nEe-C6-vg3"; */
+"nEe-C6-vg3.text" = "City:";
+
+/* Class = "UILabel"; text = "Model: Model Type"; ObjectID = "nly-H7-9Ix"; */
+"nly-H7-9Ix.text" = "Model: Model Type";
+
+/* Class = "UILabel"; text = "Dashboard"; ObjectID = "nm3-SD-xUY"; */
+"nm3-SD-xUY.text" = "Dashboard";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "oUt-03-cV5"; */
+"oUt-03-cV5.text" = "Product Name";
+
+/* Class = "UILabel"; text = "Quantity: 0"; ObjectID = "pDZ-aF-IXa"; */
+"pDZ-aF-IXa.text" = "Quantity: 0";
+
+/* Class = "UIButton"; normalTitle = "Yearly"; ObjectID = "pVN-qs-Bud"; */
+"pVN-qs-Bud.normalTitle" = "Yearly";
+
+/* Class = "UILabel"; text = "SKU:"; ObjectID = "pj9-4b-DPe"; */
+"pj9-4b-DPe.text" = "SKU:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "qYP-fX-kKT"; */
+"qYP-fX-kKT.text" = "Price:";
+
+/* Class = "UILabel"; text = "Avg. order / day:"; ObjectID = "qbD-JB-0Ti"; */
+"qbD-JB-0Ti.text" = "Avg. order / day:";
+
+/* Class = "UIButton"; normalTitle = "Monthly"; ObjectID = "qeq-5a-ml4"; */
+"qeq-5a-ml4.normalTitle" = "Monthly";
+
+/* Class = "UIButton"; normalTitle = "Yearly"; ObjectID = "r4T-1e-tkY"; */
+"r4T-1e-tkY.normalTitle" = "Yearly";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "rwR-op-uLV"; */
+"rwR-op-uLV.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "s1f-mb-Bqm"; */
+"s1f-mb-Bqm.text" = "-";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "sDj-iB-46C"; */
+"sDj-iB-46C.text" = "0 TL";
+
+/* Class = "UILabel"; text = "Quantity: 0"; ObjectID = "sEh-Ud-Pxr"; */
+"sEh-Ud-Pxr.text" = "Quantity: 0";
+
+/* Class = "UILabel"; text = "Product Count"; ObjectID = "sVI-uX-fOL"; */
+"sVI-uX-fOL.text" = "Product Count";
+
+/* Class = "UIButton"; normalTitle = "Notify customer"; ObjectID = "tjf-Pi-qZK"; */
+"tjf-Pi-qZK.normalTitle" = "Notify customer";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "tvT-rc-omD"; */
+"tvT-rc-omD.text" = "0.0";
+
+/* Class = "UILabel"; text = "Model: Model Type"; ObjectID = "u1A-pW-9BT"; */
+"u1A-pW-9BT.text" = "Model: Model Type";
+
+/* Class = "UIButton"; normalTitle = "Order created"; ObjectID = "uFw-dU-d3c"; */
+"uFw-dU-d3c.normalTitle" = "Order created";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "uUn-1V-CEH"; */
+"uUn-1V-CEH.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "uva-KZ-oQB"; */
+"uva-KZ-oQB.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UILabel"; text = "Quantity:"; ObjectID = "v2q-fZ-8d3"; */
+"v2q-fZ-8d3.text" = "Quantity:";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "vIz-wI-XRL"; */
+"vIz-wI-XRL.text" = "-";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "vOy-AR-aHt"; */
+"vOy-AR-aHt.text" = "Product Name";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "vWe-Mt-pPe"; */
+"vWe-Mt-pPe.text" = "Notifications";
+
+/* Class = "UILabel"; text = "E-mail"; ObjectID = "vd3-hX-wNt"; */
+"vd3-hX-wNt.text" = "E-mail";
+
+/* Class = "UILabel"; text = "Sales"; ObjectID = "ves-Kc-RDh"; */
+"ves-Kc-RDh.text" = "Sales";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "viW-Zi-l4X"; */
+"viW-Zi-l4X.text" = "Address:";
+
+/* Class = "UIButton"; normalTitle = "Retrieve Title Automatically"; ObjectID = "vjP-fV-HvW"; */
+"vjP-fV-HvW.normalTitle" = "Retrieve Title Automatically";
+
+/* Class = "UIButton"; normalTitle = "Customers"; ObjectID = "w86-ai-fya"; */
+"w86-ai-fya.normalTitle" = "Customers";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "wJ7-U1-lXx"; */
+"wJ7-U1-lXx.text" = "0";
+
+/* Class = "UILabel"; text = "Passive"; ObjectID = "wjP-Eg-kV8"; */
+"wjP-Eg-kV8.text" = "Passive";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "wyf-XC-ah1"; */
+"wyf-XC-ah1.normalTitle" = "Try Arastta Cloud";
+
+/* Class = "UIButton"; normalTitle = "All"; ObjectID = "xK9-yR-set"; */
+"xK9-yR-set.normalTitle" = "All";
+
+/* Class = "UIButton"; normalTitle = "Use Secure Connection (TLS)"; ObjectID = "xgq-KT-Fb0"; */
+"xgq-KT-Fb0.normalTitle" = "Use Secure Connection (TLS)";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "yOS-NB-nUp"; */
+"yOS-NB-nUp.text" = "0 TL";
+
+/* Class = "UILabel"; text = "Invoice Prefix:"; ObjectID = "z80-Ql-nkY"; */
+"z80-Ql-nkY.text" = "Invoice Prefix:";
+
+/* Class = "UILabel"; text = "E-mail:"; ObjectID = "zRW-it-2vl"; */
+"zRW-it-2vl.text" = "E-mail:";
+
+/* Class = "UIButton"; normalTitle = "New customer registered"; ObjectID = "zfb-mJ-yxp"; */
+"zfb-mJ-yxp.normalTitle" = "New customer registered";
+
+/* Class = "UIButton"; normalTitle = "Order status changed"; ObjectID = "zqN-BL-sd7"; */
+"zqN-BL-sd7.normalTitle" = "Order status changed";
