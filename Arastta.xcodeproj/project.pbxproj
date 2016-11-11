@@ -199,9 +199,7 @@
 		FAE6B3AB1D534E1C009D6243 /* OrderStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderStatus.m; sourceTree = "<group>"; };
 		FAEB3B4B1DD5C324004C9A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		FAEB3B4C1DD5C409004C9A7A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
-		FAEB3B4D1DD5C409004C9A7A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		FAEB3B4E1DD5C41E004C9A7A /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
-		FAEB3B4F1DD5C41E004C9A7A /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		FAEB3B501DD5C71D004C9A7A /* icon_trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_trash.png; sourceTree = "<group>"; };
 		FAEB3B5B1DD5E659004C9A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FAEB3B5F1DD5FDBA004C9A7A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -712,8 +710,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA36C6F21D01BBE300D23740 /* Base */,
-				FAEB3B4D1DD5C409004C9A7A /* pt-BR */,
-				FAEB3B4F1DD5C41E004C9A7A /* nb */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
