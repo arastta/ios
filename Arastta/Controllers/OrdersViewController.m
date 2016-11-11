@@ -125,7 +125,7 @@
 		
 	} failure:^(NSError *error) {
 		
-		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.description delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 		[self.indicatorLoading stopAnimating];
 		
@@ -140,7 +140,7 @@
 		
 	} failure:^(NSError *error) {
 		
-		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.description delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 	} parameters:parameters];
 	// </order total>

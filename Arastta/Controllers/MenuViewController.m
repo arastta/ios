@@ -117,8 +117,6 @@
 	
 	[self presentViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"viewManageStore"] animated:NO completion:nil];
 	
-	//[self presentViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"viewLogin"] animated:NO completion:nil];
-	
 }
 
 

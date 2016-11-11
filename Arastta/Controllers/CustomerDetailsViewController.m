@@ -111,7 +111,7 @@
 	if ([[UIApplication sharedApplication] canOpenURL:phoneUrl]) {
 		[[UIApplication sharedApplication] openURL:phoneUrl];
 	} else {
-		UIAlertView * calert = [[UIAlertView alloc]initWithTitle:@"Alert" message:@"Call facility is not available!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+		UIAlertView * calert = [[UIAlertView alloc]initWithTitle:NSLocalizedString(@"alertError", nil) message:NSLocalizedString(@"alertCallFacilityUnavailable", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil];
 		[calert show];
 	}
 }

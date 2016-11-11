@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  Arastta
+
+  Created by Ayhan Dorman on 11/11/2016.
+  Copyright © 2016 Arastta. All rights reserved.
+*/
+
+"alertDeleteConfirmation" = "Delete Confirmation";
+
+"alertDeleteDescription" = "Are you sure to delete this store?";
+
+"alertDelete" = "DELETE";
+
+"alertSuccess" = "Success";
+
+"alertCancel" = "Cancel";
+
+"alertOK" = "OK";
+
+"alertError" = "Error";
+
+"alertSuccessDescription" = "Store details were successfully updated.";
+
+"alertStoreDetailsCouldNotBeUpdated" = "Store details could not be updated!";
+
+"alertStoreDetailsCouldNotBeSaved" = "Store details could not be saved!";
+
+"alertCallFacilityUnavailable" = "Call facility is not available!";
+
+"alertOrderStatusWasChangedSuccessfully" = "Order status was changed successfully.";
+
+"disabled" = "Disabled";
+
+"enabled" = "Enabled";

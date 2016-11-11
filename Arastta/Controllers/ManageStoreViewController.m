@@ -95,12 +95,12 @@
 - (IBAction)btnDeleteClick:(id)sender {
 	
 	UIAlertController *alert =   [UIAlertController
-								  alertControllerWithTitle:@"Delete Confirmation"
-								  message:@"Are you sure to delete this store?"
+								  alertControllerWithTitle:NSLocalizedString(@"alertDeleteConfirmation", nil)
+								  message:NSLocalizedString(@"alertDeleteDescription", nil)
 								  preferredStyle:UIAlertControllerStyleAlert];
 	
 	UIAlertAction* ok = [UIAlertAction
-						 actionWithTitle:@"DELETE"
+						 actionWithTitle:NSLocalizedString(@"alertDelete", nil)
 						 style:UIAlertActionStyleDestructive
 						 handler:^(UIAlertAction * action)
 						 {
@@ -135,7 +135,7 @@
 	[alert addAction:ok];
 	
 	UIAlertAction* cancel = [UIAlertAction
-						 actionWithTitle:@"Cancel"
+						 actionWithTitle:NSLocalizedString(@"alertCancel", nil)
 						 style:UIAlertActionStyleCancel
 						 handler:nil];
 	
@@ -267,7 +267,7 @@
 			if ([Store update:self.store newStore:storeDetails])
 			{
 				
-				[[[UIAlertView alloc] initWithTitle:@"Success" message:@"Store details were successfully updated." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+				[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertSuccess", nil) message:NSLocalizedString(@"alertSuccessDescription", nil) delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 				
 				[Store set:self.txtStoreUrl.text config_name:self.txtStoreTitle.text config_image:self.store.config_name username:self.txtUsername.text password:self.txtPassword.text use_tls:useSecureConnection];
 				
@@ -299,7 +299,7 @@
 			else
 			{
 				
-				[[[UIAlertView alloc] initWithTitle:@"Error" message:@"Store details could not be updated." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+				[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:NSLocalizedString(@"alertStoreDetailsCouldNotBeUpdated", nil) delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 				
 			}
 			
@@ -357,7 +357,7 @@
 				else
 				{
 					
-					[[[UIAlertView alloc] initWithTitle:@"Error" message:@"Store details can not be saved." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+					[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:NSLocalizedString(@"alertStoreDetailsCouldNotBeSaved", nil) delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 					
 				}
 				
@@ -365,7 +365,7 @@
 				
 				[self.indicatorLoading stopAnimating];
 				
-				[[[UIAlertView alloc] initWithTitle:@"Error" message:error.localizedDescription delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+				[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.localizedDescription delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 				
 			} storeLink:self.txtStoreUrl.text username:self.txtUsername.text password:self.txtPassword.text];
 			
@@ -416,7 +416,7 @@
 			else
 			{
 				
-				[[[UIAlertView alloc] initWithTitle:@"Error" message:@"Store details can not be saved." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+				[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:NSLocalizedString(@"alertStoreDetailsCouldNotBeSaved", nil) delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 				
 			}
 			
@@ -424,7 +424,7 @@
 			
 			[self.indicatorLoading stopAnimating];
 			
-			[[[UIAlertView alloc] initWithTitle:@"Error" message:error.localizedDescription delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+			[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.localizedDescription delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 			
 		} storeLink:self.txtStoreUrl.text username:self.txtUsername.text password:self.txtPassword.text];
 		

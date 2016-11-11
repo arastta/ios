@@ -71,6 +71,7 @@
 		FAC5D3761D22BBE2001F050F /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D3751D22BBE2001F050F /* Store.m */; };
 		FAE6B3AC1D534E1C009D6243 /* OrderStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE6B3AB1D534E1C009D6243 /* OrderStatus.m */; };
 		FAEB3B511DD5C71D004C9A7A /* icon_trash.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEB3B501DD5C71D004C9A7A /* icon_trash.png */; };
+		FAEB3B5C1DD5E659004C9A7A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEB3B5A1DD5E659004C9A7A /* Localizable.strings */; };
 		FAF053511D521507006FC3E6 /* DatePart.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF053501D521507006FC3E6 /* DatePart.m */; };
 		FAF3AC1A1D25279A0084CEDE /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3AC191D25279A0084CEDE /* OrderCell.m */; };
 		FAF604CE1D49D6720074AAF2 /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF604CD1D49D6720074AAF2 /* ProductDetailsViewController.m */; };
@@ -202,6 +203,9 @@
 		FAEB3B4E1DD5C41E004C9A7A /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
 		FAEB3B4F1DD5C41E004C9A7A /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		FAEB3B501DD5C71D004C9A7A /* icon_trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_trash.png; sourceTree = "<group>"; };
+		FAEB3B5B1DD5E659004C9A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FAEB3B5F1DD5FDBA004C9A7A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FAEB3B601DD5FDBF004C9A7A /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FAF0534F1D521507006FC3E6 /* DatePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePart.h; sourceTree = "<group>"; };
 		FAF053501D521507006FC3E6 /* DatePart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePart.m; sourceTree = "<group>"; };
 		FAF3AC181D25279A0084CEDE /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
@@ -271,6 +275,7 @@
 				FA36C6E61D01BBE300D23740 /* AppDelegate.h */,
 				FA36C6E71D01BBE300D23740 /* AppDelegate.m */,
 				FA36C6EC1D01BBE300D23740 /* Main.storyboard */,
+				FAEB3B5A1DD5E659004C9A7A /* Localizable.strings */,
 				FA36C6EF1D01BBE300D23740 /* Assets.xcassets */,
 				FA36C6F11D01BBE300D23740 /* LaunchScreen.storyboard */,
 				FA36C6F41D01BBE300D23740 /* Info.plist */,
@@ -545,6 +550,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
+				nb,
 			);
 			mainGroup = FA36C6D71D01BBE300D23740;
 			productRefGroup = FA36C6E11D01BBE300D23740 /* Products */;
@@ -576,6 +583,7 @@
 				FA9B6A781D2158B300540211 /* avatar-default.png in Resources */,
 				FA9B6A881D2160E000540211 /* settings-icon.png in Resources */,
 				FA9B6A7D1D215E9200540211 /* dropdown-icon.png in Resources */,
+				FAEB3B5C1DD5E659004C9A7A /* Localizable.strings in Resources */,
 				FA16CFD81D50CA190011DB96 /* checkbox-checked.png in Resources */,
 				FA9B6A8E1D21648D00540211 /* dashboard-menu-icon.png in Resources */,
 				FA16CFD21D5095E20011DB96 /* manage-store-icon.png in Resources */,
@@ -708,6 +716,16 @@
 				FAEB3B4F1DD5C41E004C9A7A /* nb */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEB3B5A1DD5E659004C9A7A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEB3B5B1DD5E659004C9A7A /* en */,
+				FAEB3B5F1DD5FDBA004C9A7A /* pt-BR */,
+				FAEB3B601DD5FDBF004C9A7A /* nb */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

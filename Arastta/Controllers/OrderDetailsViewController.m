@@ -86,7 +86,7 @@
 		
 	} failure:^(NSError *error) {
 		
-		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.description delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 		[self.indicatorLoading stopAnimating];
 		
@@ -137,7 +137,7 @@
 		
 	} failure:^(NSError *error) {
 		
-		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.description delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 	} order_id:self.order.order_id parameters:nil];
 	
@@ -165,7 +165,7 @@
 		
 	} failure:^(NSError *error) {
 		
-		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.description delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 	}];
 	
@@ -336,7 +336,7 @@
 	
 	[ArasttaAPI orderHistoriesAdd:^{
 		
-		[[[UIAlertView alloc] initWithTitle:@"Success" message:@"Order status was changed successfully." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertSuccess", nil) message:NSLocalizedString(@"alertOrderStatusWasChangedSuccessfully", nil) delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 		self.imgOrderStatus.tintColor = [ArasttaAPI colourByOrderStatus:status.order_status_id];
 		
@@ -351,7 +351,7 @@
 		
 	} failure:^(NSError *error) {
 		
-		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.description delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 		[self.indicatorLoading stopAnimating];
 		

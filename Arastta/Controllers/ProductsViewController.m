@@ -132,7 +132,7 @@
 		
 	} failure:^(NSError *error) {
 		
-		[[[UIAlertView alloc] initWithTitle:@"Error" message:error.description delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+		[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"alertError", nil) message:error.description delegate:self cancelButtonTitle:NSLocalizedString(@"alertOK", nil) otherButtonTitles:nil, nil] show];
 		
 		[self.indicatorLoading stopAnimating];
 		
@@ -336,11 +336,11 @@
 	
 	if ([product.status isEqualToString:@"0"])
 	{
-		cell.lblProductStatus.text = @"Disabled";
+		cell.lblProductStatus.text = NSLocalizedString(@"disabled", nil);
 	}
 	else
 	{
-		cell.lblProductStatus.text = @"Enabled";
+		cell.lblProductStatus.text = NSLocalizedString(@"enabled", nil);
 	}
 	
 	
