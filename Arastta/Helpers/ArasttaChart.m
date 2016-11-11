@@ -108,7 +108,7 @@
 	
 	shapeLayer.fillColor = [[UIColor clearColor] CGColor];
 	
-	
+	/*
 	CATextLayer *label = [[CATextLayer alloc] init];
 	[label setFont:@"ArialMT"];
 	[label setFontSize:10];
@@ -117,10 +117,7 @@
 	[label setAlignmentMode:kCAAlignmentCenter];
 	[label setForegroundColor:[[UIColor blackColor] CGColor]];
 	[shapeLayer addSublayer:label];
-	
-	
-	NSLog(@"round: %f", 100.0 * floor((maxValue/100.0)+1.0));
-	
+	*/
 	
 	[self.layer addSublayer:shapeLayer];
 	// </draw chart>
