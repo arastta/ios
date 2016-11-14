@@ -1,0 +1,558 @@
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "0Ku-gv-600"; */
+"0Ku-gv-600.placeholder" = "E-posta";
+
+/* Class = "UITextField"; text = "mobile"; ObjectID = "0Ku-gv-600"; */
+"0Ku-gv-600.text" = "mobil";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "0MK-Xe-XQ0"; */
+"0MK-Xe-XQ0.normalTitle" = "Kaydet";
+
+/* Class = "UIButton"; normalTitle = "Products"; ObjectID = "0iP-pb-jbA"; */
+"0iP-pb-jbA.normalTitle" = "Ürünler";
+
+/* Class = "UILabel"; text = "Store Title"; ObjectID = "11n-Ik-q5X"; */
+"11n-Ik-q5X.text" = "Mağaza Başlığı";
+
+/* Class = "UITextField"; placeholder = "Type Title Here"; ObjectID = "12K-P5-qQK"; */
+"12K-P5-qQK.placeholder" = "Başlığı Buraya Yazınız";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "1rO-0D-sVv"; */
+"1rO-0D-sVv.text" = "-";
+
+/* Class = "UILabel"; text = "Store URL (without http:// or https://)"; ObjectID = "202-N2-7h1"; */
+"202-N2-7h1.text" = "Mağaza URL (http:// ya da https:// olmadan)";
+
+/* Class = "UILabel"; text = "CUSTOMERS"; ObjectID = "27z-Qy-2i7"; */
+"27z-Qy-2i7.text" = "MÜŞTERİLER";
+
+/* Class = "UILabel"; text = "Register Date:"; ObjectID = "2PQ-dH-2gX"; */
+"2PQ-dH-2gX.text" = "Kayıt Tarihi:";
+
+/* Class = "UILabel"; text = "Telephone:"; ObjectID = "33v-Da-clj"; */
+"33v-Da-clj.text" = "Telefon:";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "3B7-XW-g39"; */
+"3B7-XW-g39.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "3ai-hr-kOB"; */
+"3ai-hr-kOB.text" = "Tarih";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "3fH-2d-Ti6"; */
+"3fH-2d-Ti6.normalTitle" = "Bugün";
+
+/* Class = "UITextField"; placeholder = "Type URL Here"; ObjectID = "3gd-G2-aWR"; */
+"3gd-G2-aWR.placeholder" = "URL Yazınız";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "439-Vk-A0d"; */
+"439-Vk-A0d.normalTitle" = "Kaydet";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "49f-6D-aVW"; */
+"49f-6D-aVW.text" = "0.0";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "4F6-O4-SRW"; */
+"4F6-O4-SRW.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UILabel"; text = "Fullname"; ObjectID = "4Ua-TF-Wvy"; */
+"4Ua-TF-Wvy.text" = "Tam Ad";
+
+/* Class = "UILabel"; text = "Orders: -"; ObjectID = "4hM-Zq-QNW"; */
+"4hM-Zq-QNW.text" = "Siparişler: -";
+
+/* Class = "UILabel"; text = "Total:"; ObjectID = "6iO-K6-4In"; */
+"6iO-K6-4In.text" = "Toplam:";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "6jg-Ps-aXB"; */
+"6jg-Ps-aXB.normalTitle" = "Bugün";
+
+/* Class = "UILabel"; text = "Manufacturer:"; ObjectID = "7Co-jV-1Fd"; */
+"7Co-jV-1Fd.text" = "Üretici:";
+
+/* Class = "UILabel"; text = "Arastta Butik"; ObjectID = "8Jc-yu-zCz"; */
+"8Jc-yu-zCz.text" = "";
+
+/* Class = "UITextField"; placeholder = "Type API Username Here"; ObjectID = "8NN-S7-ghx"; */
+"8NN-S7-ghx.placeholder" = "API Kullanıcı Adını Yazın";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "8Y2-zK-ffR"; */
+"8Y2-zK-ffR.text" = "Etkin";
+
+/* Class = "UILabel"; text = "arasttabutik.com"; ObjectID = "8dF-kd-Q28"; */
+"8dF-kd-Q28.text" = "";
+
+/* Class = "UILabel"; text = "Registered: -"; ObjectID = "91z-aK-4xh"; */
+"91z-aK-4xh.text" = "Kayıt: -";
+
+/* Class = "UILabel"; text = "Model:"; ObjectID = "96x-Gt-04i"; */
+"96x-Gt-04i.text" = "Model:";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "9DB-Th-G6T"; */
+"9DB-Th-G6T.text" = "-";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "9YI-uY-TeB"; */
+"9YI-uY-TeB.text" = "Ürün Adı";
+
+/* Class = "UILabel"; text = "Model: Model Type"; ObjectID = "9Zu-0x-tvu"; */
+"9Zu-0x-tvu.text" = "Model: Model Tipi";
+
+/* Class = "UILabel"; text = "Order Count:"; ObjectID = "9yA-pi-9gM"; */
+"9yA-pi-9gM.text" = "Sipariş Sayısı:";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ASg-rY-idL"; */
+"ASg-rY-idL.text" = "-";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "Amy-SX-0tb"; */
+"Amy-SX-0tb.text" = "0";
+
+/* Class = "UILabel"; text = "ID: 0"; ObjectID = "AqA-HJ-j8A"; */
+"AqA-HJ-j8A.text" = "ID: 0";
+
+/* Class = "UILabel"; text = "Comment:"; ObjectID = "B9R-kI-dUJ"; */
+"B9R-kI-dUJ.text" = "Yorum:";
+
+/* Class = "UILabel"; text = "Avg. order value / day:"; ObjectID = "BGH-Wd-Fl5"; */
+"BGH-Wd-Fl5.text" = "Ort. sipariş tutarı / gün:";
+
+/* Class = "UILabel"; text = "Products"; ObjectID = "BRV-wR-OUp"; */
+"BRV-wR-OUp.text" = "Ürünler";
+
+/* Class = "UILabel"; text = "+90 999 99 99"; ObjectID = "BTW-zE-7Qg"; */
+"BTW-zE-7Qg.text" = "+90 999 99 99";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "CS3-qi-yB2"; */
+"CS3-qi-yB2.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Ckl-bp-ldM"; */
+"Ckl-bp-ldM.text" = "-";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "D4d-N4-DD8"; */
+"D4d-N4-DD8.text" = "Durum";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "DKs-0d-csV"; */
+"DKs-0d-csV.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "Dhq-2u-wWS"; */
+"Dhq-2u-wWS.normalTitle" = "Bilgi";
+
+/* Class = "UIButton"; normalTitle = "Manage Stores"; ObjectID = "Djf-B6-ZZ3"; */
+"Djf-B6-ZZ3.normalTitle" = "Mağazaları Yönet";
+
+/* Class = "UIButton"; normalTitle = "Orders"; ObjectID = "EK9-43-yeI"; */
+"EK9-43-yeI.normalTitle" = "Siparişler";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "EpC-hk-LGK"; */
+"EpC-hk-LGK.text" = "0";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ErH-rs-Ii3"; */
+"ErH-rs-Ii3.placeholder" = "Şifre";
+
+/* Class = "UITextField"; text = "app"; ObjectID = "ErH-rs-Ii3"; */
+"ErH-rs-Ii3.text" = "";
+
+/* Class = "UILabel"; text = "Add Store..."; ObjectID = "EvS-Nc-tVO"; */
+"EvS-Nc-tVO.text" = "Mağaza Ekle...";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "FIG-46-Nyx"; */
+"FIG-46-Nyx.text" = "$0";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "FRO-2u-j42"; */
+"FRO-2u-j42.text" = "-";
+
+/* Class = "UILabel"; text = "Customer ID"; ObjectID = "FRo-nW-646"; */
+"FRo-nW-646.text" = "Müşteri No";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "G8g-cW-bea"; */
+"G8g-cW-bea.text" = "0";
+
+/* Class = "UILabel"; text = "01.01.1999 00:00"; ObjectID = "GEy-W6-7MF"; */
+"GEy-W6-7MF.text" = "01.01.1999 00:00";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "Gbu-zo-t0i"; */
+"Gbu-zo-t0i.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UILabel"; text = "Active"; ObjectID = "GeY-zj-Dhc"; */
+"GeY-zj-Dhc.text" = "Etkin";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "HEC-Yl-cJE"; */
+"HEC-Yl-cJE.normalTitle" = "Giriş";
+
+/* Class = "UILabel"; text = "Customer Name"; ObjectID = "IrL-Kr-nIB"; */
+"IrL-Kr-nIB.text" = "Müşteri Adı";
+
+/* Class = "UILabel"; text = "Fax:"; ObjectID = "IrR-cU-rCZ"; */
+"IrR-cU-rCZ.text" = "Faks:";
+
+/* Class = "UILabel"; text = "IP:"; ObjectID = "K99-7j-9D7"; */
+"K99-7j-9D7.text" = "IP:";
+
+/* Class = "UILabel"; text = "Payment Method:"; ObjectID = "KH5-QW-0Fo"; */
+"KH5-QW-0Fo.text" = "Ödeme Türü:";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "KqN-1d-fxS"; */
+"KqN-1d-fxS.text" = "0";
+
+/* Class = "UITextField"; placeholder = "Type API Password Here"; ObjectID = "KyU-yb-q11"; */
+"KyU-yb-q11.placeholder" = "API Şifresini Yazın";
+
+/* Class = "UILabel"; text = "App Settings"; ObjectID = "L87-Ed-Ky5"; */
+"L87-Ed-Ky5.text" = "Uygulama Ayarları";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "LaE-SB-WaF"; */
+"LaE-SB-WaF.text" = "Etkin";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "Mb5-q7-4Ao"; */
+"Mb5-q7-4Ao.text" = "0";
+
+/* Class = "UILabel"; text = "Customer ID: -"; ObjectID = "Ng2-Qc-48K"; */
+"Ng2-Qc-48K.text" = "Müşteri No: -";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "Np6-Z4-PE1"; */
+"Np6-Z4-PE1.text" = "Toplam";
+
+/* Class = "UILabel"; text = "Order ID:"; ObjectID = "ONu-LJ-u1O"; */
+"ONu-LJ-u1O.text" = "Sipariş No:";
+
+/* Class = "UILabel"; text = "Status:"; ObjectID = "OWv-M7-6f2"; */
+"OWv-M7-6f2.text" = "Durum:";
+
+/* Class = "UILabel"; text = "PRODUCTS"; ObjectID = "Oas-Nj-kjd"; */
+"Oas-Nj-kjd.text" = "ÜRÜNLER";
+
+/* Class = "UILabel"; text = "No:"; ObjectID = "Oe0-mC-lIn"; */
+"Oe0-mC-lIn.text" = "No:";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "Oqz-wV-LD9"; */
+"Oqz-wV-LD9.text" = "Durum";
+
+/* Class = "UITextField"; placeholder = "Store Link"; ObjectID = "PPC-nq-WPB"; */
+"PPC-nq-WPB.placeholder" = "Mağaza Bağlantısı";
+
+/* Class = "UITextField"; text = "mobile.arastta.com"; ObjectID = "PPC-nq-WPB"; */
+"PPC-nq-WPB.text" = "";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "PSg-4h-gDi"; */
+"PSg-4h-gDi.text" = "Toplam";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Pls-QK-TcY"; */
+"Pls-QK-TcY.text" = "-";
+
+/* Class = "UILabel"; text = "ID: 0"; ObjectID = "QdX-fH-p5X"; */
+"QdX-fH-p5X.text" = "No: 0";
+
+/* Class = "UIButton"; normalTitle = "Dashboard"; ObjectID = "Qlb-73-Z6l"; */
+"Qlb-73-Z6l.normalTitle" = "Özet";
+
+/* Class = "UILabel"; text = "ID: -"; ObjectID = "Qzk-Fz-WN4"; */
+"Qzk-Fz-WN4.text" = "No: -";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "R4g-vv-JW3"; */
+"R4g-vv-JW3.text" = "-";
+
+/* Class = "UILabel"; text = "Manage Stores"; ObjectID = "RMz-YQ-eyn"; */
+"RMz-YQ-eyn.text" = "Mağazaları Yönet";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Rgn-9y-uw1"; */
+"Rgn-9y-uw1.text" = "-";
+
+/* Class = "UILabel"; text = "API Username"; ObjectID = "S2b-G3-V7u"; */
+"S2b-G3-V7u.text" = "API Kullanıcı Adı";
+
+/* Class = "UILabel"; text = "New Store"; ObjectID = "Soc-Y4-YMg"; */
+"Soc-Y4-YMg.text" = "Yeni Mağaza";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "TmN-Yl-jZt"; */
+"TmN-Yl-jZt.text" = "$0.00";
+
+/* Class = "UILabel"; text = "ID:"; ObjectID = "UNG-T8-Fjp"; */
+"UNG-T8-Fjp.text" = "No:";
+
+/* Class = "UILabel"; text = "Orders"; ObjectID = "V0W-jh-Sh0"; */
+"V0W-jh-Sh0.text" = "Siparişler";
+
+/* Class = "UILabel"; text = "ORDERS"; ObjectID = "V4o-sn-wJZ"; */
+"V4o-sn-wJZ.text" = "SİPARİŞLER";
+
+/* Class = "UILabel"; text = "Completed"; ObjectID = "VA0-n0-Xg7"; */
+"VA0-n0-Xg7.text" = "Tamamlandı";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "VU1-uX-7GY"; */
+"VU1-uX-7GY.text" = "-";
+
+/* Class = "UILabel"; text = "ID: 0"; ObjectID = "VYZ-EI-UQR"; */
+"VYZ-EI-UQR.text" = "No: 0";
+
+/* Class = "UILabel"; text = "john@domain.com"; ObjectID = "W7K-5X-0Dp"; */
+"W7K-5X-0Dp.text" = "john@domain.com";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "WBt-nY-E0k"; */
+"WBt-nY-E0k.text" = "-";
+
+/* Class = "UILabel"; text = "Avg. order value / customer:"; ObjectID = "WQl-Zc-80V"; */
+"WQl-Zc-80V.text" = "Ort. sipariş tutarı / müşteri:";
+
+/* Class = "UILabel"; text = "Customer Name"; ObjectID = "Wb4-vh-Mnt"; */
+"Wb4-vh-Mnt.text" = "Müşteri Adı";
+
+/* Class = "UIButton"; normalTitle = "App Settings"; ObjectID = "Wpk-f9-RnJ"; */
+"Wpk-f9-RnJ.normalTitle" = "Uygulama Ayarları";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "WrT-Fe-zER"; */
+"WrT-Fe-zER.text" = "0.0";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "X4n-li-Yyg"; */
+"X4n-li-Yyg.text" = "-";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "Xct-nX-9bK"; */
+"Xct-nX-9bK.text" = "0";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "YF3-mf-p7M"; */
+"YF3-mf-p7M.text" = "Etkin";
+
+/* Class = "UILabel"; text = "Fullname"; ObjectID = "YXc-hR-eOY"; */
+"YXc-hR-eOY.text" = "Tam Ad";
+
+/* Class = "UILabel"; text = "Add Store..."; ObjectID = "Ydg-VM-7m2"; */
+"Ydg-VM-7m2.text" = "Mağaza Ekle...";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "ZKb-ii-bQ4"; */
+"ZKb-ii-bQ4.text" = "0";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ZPh-dD-JAK"; */
+"ZPh-dD-JAK.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ZW2-iJ-2FG"; */
+"ZW2-iJ-2FG.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Yearly"; ObjectID = "Zgw-Ts-e6Y"; */
+"Zgw-Ts-e6Y.normalTitle" = "Yıllık";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "aNT-Ua-yQi"; */
+"aNT-Ua-yQi.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ask-qJ-Gy0"; */
+"ask-qJ-Gy0.normalTitle" = "İptal";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "bCp-zw-MoW"; */
+"bCp-zw-MoW.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Interface Language"; ObjectID = "bD3-Py-skF"; */
+"bD3-Py-skF.normalTitle" = "Arayüz Dili";
+
+/* Class = "UIButton"; normalTitle = "Orders"; ObjectID = "baL-QV-QE7"; */
+"baL-QV-QE7.normalTitle" = "Siparişler";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "bnh-PY-XP1"; */
+"bnh-PY-XP1.text" = "İsim:";
+
+/* Class = "UIButton"; normalTitle = "History"; ObjectID = "cri-Cr-zyt"; */
+"cri-Cr-zyt.normalTitle" = "Geçmiş";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "cyv-IX-1Qc"; */
+"cyv-IX-1Qc.text" = "-";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "d8i-d7-bLs"; */
+"d8i-d7-bLs.text" = "Ülke:";
+
+/* Class = "UIButton"; normalTitle = "Monthly"; ObjectID = "dGb-46-eWa"; */
+"dGb-46-eWa.normalTitle" = "Aylık";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "deC-Wl-TjO"; */
+"deC-Wl-TjO.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Notifications"; ObjectID = "ebp-zn-B6f"; */
+"ebp-zn-B6f.normalTitle" = "Bildirimler";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "ecx-Is-6lr"; */
+"ecx-Is-6lr.normalTitle" = "Bilgi";
+
+/* Class = "UILabel"; text = "Quantity: -"; ObjectID = "ejl-YL-TU3"; */
+"ejl-YL-TU3.text" = "Adet: -";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "et0-3d-glh"; */
+"et0-3d-glh.text" = "-";
+
+/* Class = "UILabel"; text = "API Password"; ObjectID = "f4p-q9-jFE"; */
+"f4p-q9-jFE.text" = "API Şifresi";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "fcr-1b-3Av"; */
+"fcr-1b-3Av.normalTitle" = "Bugün";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "flP-Rd-YAe"; */
+"flP-Rd-YAe.text" = "-";
+
+/* Class = "UILabel"; text = "Avg. customers / day:"; ObjectID = "fn0-Ia-AuQ"; */
+"fn0-Ia-AuQ.text" = "Ort. müşteri / gün:";
+
+/* Class = "UILabel"; text = "Company:"; ObjectID = "g2v-wo-tuQ"; */
+"g2v-wo-tuQ.text" = "Şirket:";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "g6q-GR-aSY"; */
+"g6q-GR-aSY.text" = "Tarih";
+
+/* Class = "UILabel"; text = "OS Language"; ObjectID = "gR5-nS-qD0"; */
+"gR5-nS-qD0.text" = "OS Dili";
+
+/* Class = "UIButton"; normalTitle = "Products"; ObjectID = "gdK-Lw-Ia9"; */
+"gdK-Lw-Ia9.normalTitle" = "Ürünler";
+
+/* Class = "UILabel"; text = "Store Title"; ObjectID = "gk9-Gq-ZUf"; */
+"gk9-Gq-ZUf.text" = "Mağaza Başlıpı";
+
+/* Class = "UILabel"; text = "Product Description"; ObjectID = "gsf-Om-5vb"; */
+"gsf-Om-5vb.text" = "Ürün Açıklaması";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "hjM-81-WXe"; */
+"hjM-81-WXe.text" = "-";
+
+/* Class = "UILabel"; text = "All Products:"; ObjectID = "icJ-8e-sZp"; */
+"icJ-8e-sZp.text" = "Tüm Ürünler:";
+
+/* Class = "UILabel"; text = "Customers"; ObjectID = "inz-4V-d98"; */
+"inz-4V-d98.text" = "Müşteriler";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "iz1-2n-Ynv"; */
+"iz1-2n-Ynv.text" = "Açıklama:";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "jVu-9S-fYt"; */
+"jVu-9S-fYt.text" = "Ürün Adı";
+
+/* Class = "UILabel"; text = "Quantity: 0"; ObjectID = "jgR-5b-KfK"; */
+"jgR-5b-KfK.text" = "Adet: 0";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "kwK-4I-Hml"; */
+"kwK-4I-Hml.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UIButton"; normalTitle = "Monthly"; ObjectID = "lmc-U6-dSS"; */
+"lmc-U6-dSS.normalTitle" = "Aylık";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "ltf-wQ-rWY"; */
+"ltf-wQ-rWY.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UILabel"; text = "Product Info"; ObjectID = "m0Y-OU-JQd"; */
+"m0Y-OU-JQd.text" = "Ürün Bilgisi";
+
+/* Class = "UIButton"; normalTitle = "Ordered"; ObjectID = "msb-Sn-b1t"; */
+"msb-Sn-b1t.normalTitle" = "Sıralı";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "nEe-C6-vg3"; */
+"nEe-C6-vg3.text" = "Şehir:";
+
+/* Class = "UILabel"; text = "Model: Model Type"; ObjectID = "nly-H7-9Ix"; */
+"nly-H7-9Ix.text" = "Model: Model Tipi";
+
+/* Class = "UILabel"; text = "Dashboard"; ObjectID = "nm3-SD-xUY"; */
+"nm3-SD-xUY.text" = "Özet";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "oUt-03-cV5"; */
+"oUt-03-cV5.text" = "Ürün Adı";
+
+/* Class = "UILabel"; text = "Quantity: 0"; ObjectID = "pDZ-aF-IXa"; */
+"pDZ-aF-IXa.text" = "Adet: 0";
+
+/* Class = "UIButton"; normalTitle = "Yearly"; ObjectID = "pVN-qs-Bud"; */
+"pVN-qs-Bud.normalTitle" = "Yıllık";
+
+/* Class = "UILabel"; text = "SKU:"; ObjectID = "pj9-4b-DPe"; */
+"pj9-4b-DPe.text" = "SKU:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "qYP-fX-kKT"; */
+"qYP-fX-kKT.text" = "Fiyat:";
+
+/* Class = "UILabel"; text = "Avg. order / day:"; ObjectID = "qbD-JB-0Ti"; */
+"qbD-JB-0Ti.text" = "Ort. sipariş / gün:";
+
+/* Class = "UIButton"; normalTitle = "Monthly"; ObjectID = "qeq-5a-ml4"; */
+"qeq-5a-ml4.normalTitle" = "Aylık";
+
+/* Class = "UIButton"; normalTitle = "Yearly"; ObjectID = "r4T-1e-tkY"; */
+"r4T-1e-tkY.normalTitle" = "Yıllık";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "rwR-op-uLV"; */
+"rwR-op-uLV.normalTitle" = "İptal";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "s1f-mb-Bqm"; */
+"s1f-mb-Bqm.text" = "-";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "sDj-iB-46C"; */
+"sDj-iB-46C.text" = "0";
+
+/* Class = "UILabel"; text = "Quantity: 0"; ObjectID = "sEh-Ud-Pxr"; */
+"sEh-Ud-Pxr.text" = "Adet: 0";
+
+/* Class = "UILabel"; text = "Product Count"; ObjectID = "sVI-uX-fOL"; */
+"sVI-uX-fOL.text" = "Ürün Adedi";
+
+/* Class = "UIButton"; normalTitle = "Notify customer"; ObjectID = "tjf-Pi-qZK"; */
+"tjf-Pi-qZK.normalTitle" = "Müşteriyi bilgilendir";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "tvT-rc-omD"; */
+"tvT-rc-omD.text" = "0.0";
+
+/* Class = "UILabel"; text = "Model: Model Type"; ObjectID = "u1A-pW-9BT"; */
+"u1A-pW-9BT.text" = "Model: Model Tipi";
+
+/* Class = "UIButton"; normalTitle = "Order created"; ObjectID = "uFw-dU-d3c"; */
+"uFw-dU-d3c.normalTitle" = "Sipariş oluşturulduğunda";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "uUn-1V-CEH"; */
+"uUn-1V-CEH.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "uva-KZ-oQB"; */
+"uva-KZ-oQB.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UILabel"; text = "Quantity:"; ObjectID = "v2q-fZ-8d3"; */
+"v2q-fZ-8d3.text" = "Adet:";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "vIz-wI-XRL"; */
+"vIz-wI-XRL.text" = "-";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "vOy-AR-aHt"; */
+"vOy-AR-aHt.text" = "Ürün Adı";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "vWe-Mt-pPe"; */
+"vWe-Mt-pPe.text" = "Bildirimler";
+
+/* Class = "UILabel"; text = "E-mail"; ObjectID = "vd3-hX-wNt"; */
+"vd3-hX-wNt.text" = "E-posta";
+
+/* Class = "UILabel"; text = "Sales"; ObjectID = "ves-Kc-RDh"; */
+"ves-Kc-RDh.text" = "Satışlar";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "viW-Zi-l4X"; */
+"viW-Zi-l4X.text" = "Adres:";
+
+/* Class = "UIButton"; normalTitle = "Retrieve Title Automatically"; ObjectID = "vjP-fV-HvW"; */
+"vjP-fV-HvW.normalTitle" = "Başlığı Otomatik Al";
+
+/* Class = "UIButton"; normalTitle = "Customers"; ObjectID = "w86-ai-fya"; */
+"w86-ai-fya.normalTitle" = "Müşteriler";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "wJ7-U1-lXx"; */
+"wJ7-U1-lXx.text" = "0";
+
+/* Class = "UILabel"; text = "Passive"; ObjectID = "wjP-Eg-kV8"; */
+"wjP-Eg-kV8.text" = "Etkin Değil";
+
+/* Class = "UIButton"; normalTitle = "Try Arastta Cloud"; ObjectID = "wyf-XC-ah1"; */
+"wyf-XC-ah1.normalTitle" = "Arastta Cloud'u Deneyin";
+
+/* Class = "UIButton"; normalTitle = "All"; ObjectID = "xK9-yR-set"; */
+"xK9-yR-set.normalTitle" = "Tümü";
+
+/* Class = "UIButton"; normalTitle = "Use Secure Connection (TLS)"; ObjectID = "xgq-KT-Fb0"; */
+"xgq-KT-Fb0.normalTitle" = "Güvenli Bağlantı Kullan (TLS)";
+
+/* Class = "UILabel"; text = "0 TL"; ObjectID = "yOS-NB-nUp"; */
+"yOS-NB-nUp.text" = "0";
+
+/* Class = "UILabel"; text = "Invoice Prefix:"; ObjectID = "z80-Ql-nkY"; */
+"z80-Ql-nkY.text" = "Fatura Öneki:";
+
+/* Class = "UILabel"; text = "E-mail:"; ObjectID = "zRW-it-2vl"; */
+"zRW-it-2vl.text" = "E-posta:";
+
+/* Class = "UIButton"; normalTitle = "New customer registered"; ObjectID = "zfb-mJ-yxp"; */
+"zfb-mJ-yxp.normalTitle" = "Yeni müşteri kaydolduğunda";
+
+/* Class = "UIButton"; normalTitle = "Order status changed"; ObjectID = "zqN-BL-sd7"; */
+"zqN-BL-sd7.normalTitle" = "Sipariş durumu değiştiğinde";
